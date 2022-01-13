@@ -4,7 +4,6 @@ namespace REVERSESTRING{
 class Program{
     static void Main(string[] args){
             Console.WriteLine("This program will take in a word you type and output it in reverse." + "\n");
-            Console.WriteLine("If you make an error, you'll have to close the program and start all over from the beginning." + "\n");
             Console.WriteLine("Please enter a string of characters! (A name, a jumble of numbers, anything!)" + "\n");
             Console.WriteLine(Program.reverseString(Console.ReadLine()));
     }
